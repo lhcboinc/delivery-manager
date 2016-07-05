@@ -5,8 +5,7 @@
     "keywords": ["onfleet delivery manager"],
 	"license": "MIT",
     "require": {
-    },
-    "require-dev": {
+		"laravel/framework": "5.*",
     },
     "autoload": {
         "psr-4": {
