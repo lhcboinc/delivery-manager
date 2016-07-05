@@ -1,6 +1,7 @@
 {
     "name": "u2u-packages/delivery-manager",
     "description": "Onfleet delivery manager",
+	"version":"0.0.0",
     "keywords": ["onfleet delivery manager"],
     "require": {
     },
