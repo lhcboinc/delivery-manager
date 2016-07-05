@@ -1,0 +1,15 @@
+{
+    "name": "u2u-packages/delivery-manager",
+    "description": "Onfleet delivery manager",
+    "keywords": ["onfleet delivery manager"],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "DeliveryManager\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
