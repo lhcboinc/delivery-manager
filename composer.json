@@ -1,11 +1,12 @@
 {
     "name": "u2u-packages/delivery-manager",
     "description": "Onfleet delivery manager",
-	"version":"1.0.4",
+	"version":"1.0.5",
     "keywords": ["onfleet delivery manager"],
 	"license": "MIT",
     "require": {
-		"laravel/framework": "5.*"
+		"laravel/framework": "5.*",
+		"guzzlehttp/guzzle":"6.*"
     },
         "require-dev": {
             "laravel/framework": "5.*"
