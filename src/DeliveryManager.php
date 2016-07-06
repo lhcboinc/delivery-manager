@@ -1,4 +1,4 @@
-<?php namespace DeliveryManager
+<?php namespace DeliveryManager;
 
 class DeliveryManager {
 	public function __construct() {
