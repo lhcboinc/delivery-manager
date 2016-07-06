@@ -32,18 +32,15 @@ class DeliveryManagerServiceProvider extends ServiceProvider {
 	public function register()
 	{
 
-        /*    $this->app->bind('DeliveryManager', function($app)
+            $this->app->bind('DeliveryManager', function($app)
 		{
 			return new \DeliveryManager\DeliveryManager();
-		});*/
-
-           $this->app->bind('DeliveryManager', 'DeliveryManager\DeliveryManager');  
+		}); 
             
 	}  
         
-        
-
-        
-        
-
+	public function provides()
+	{
+            return array('DeliveryManager');
+	}       
 }
